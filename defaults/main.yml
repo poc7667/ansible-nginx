@@ -3,9 +3,9 @@
 # Change this to pin your nginx version.
 # This track the stable repos, not mainline.
 # You can use wildcards here.
-nginx_version: 1.6.*
+nginx_version: 1.8.*
 
-nginx_user: www-data
+nginx_user: deploy
 nginx_group: "{{nginx_user}}"
 
 
